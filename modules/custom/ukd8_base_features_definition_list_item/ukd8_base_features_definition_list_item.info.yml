@@ -1,0 +1,12 @@
+name: 'Definition List Item'
+description: 'Provides Definition List Item collection item type and related configuration. A dt / dd pair'
+type: module
+core: 8.x
+dependencies:
+  - better_formats
+  - eck
+  - entity_reference_widget_helpers
+  - field
+  - inline_entity_form
+  - text
+package: 'UK D8 Base'

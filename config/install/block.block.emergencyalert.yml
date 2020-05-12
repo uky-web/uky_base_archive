@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - emergency_alerts
+  theme:
+    - ukd8
+id: emergencyalert
+theme: ukd8
+region: alert
+weight: -10
+provider: null
+plugin: emergency_alert
+settings:
+  id: emergency_alert
+  label: 'Emergency Alert'
+  provider: emergency_alerts
+  label_display: '0'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

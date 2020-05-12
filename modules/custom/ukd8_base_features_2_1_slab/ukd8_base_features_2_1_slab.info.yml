@@ -1,0 +1,12 @@
+name: '*2:1 Slab'
+description: 'Provides *2:1 Slab paragraphs type and related configuration. A content + aside slab'
+type: module
+core: 8.x
+dependencies:
+  - entity_browser_entity_form
+  - entity_reference_widget_helpers
+  - field
+  - headline_group
+  - inline_entity_form
+  - paragraphs
+package: 'UK D8 Base'

@@ -1,0 +1,12 @@
+name: 'Call to Action'
+description: 'Provides Call to Action collection item type and related configuration. A titled callout with a single button link out'
+type: module
+core: 8.x
+dependencies:
+  - better_formats
+  - eck
+  - field
+  - field_group
+  - link
+  - text
+package: 'UK D8 Base'
