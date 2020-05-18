@@ -1,0 +1,33 @@
+name: 'ECK'
+description: 'Provides configuration for ECK Collection Item entity type.'
+type: module
+core: 8.x
+dependencies:
+  - auto_entitylabel
+  - better_formats
+  - block_content
+  - chosen_field
+  - described_link
+  - entity_browser
+  - entity_browser_entity_form
+  - entity_reference_widget_helpers
+  - field
+  - field_group
+  - headline_group
+  - inline_entity_form
+  - link
+  - name
+  - node
+  - paragraphs
+  - telephone
+  - text
+  - ukd8_base_eck
+  - ukd8_base_media
+  - ukd8_base_node_event
+  - ukd8_base_node_news
+  - ukd8_base_node_person
+  - user
+  - viewfield
+  - views
+
+package: ukd8_base

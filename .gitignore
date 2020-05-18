@@ -1,8 +1,0 @@
-.DS_store
-bin/
-
-# Ignore any .git folders that might come from composer
-/**/.git
-
-#Ignore any files created by PHPStorm application
-.idea

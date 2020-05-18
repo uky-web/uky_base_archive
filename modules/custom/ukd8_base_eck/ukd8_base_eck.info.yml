@@ -1,0 +1,8 @@
+name: 'ECK'
+description: 'Provides base configuration for all distribution Entity Construction Kit implementation'
+type: module
+core: 8.x
+dependencies:
+  - eck
+
+package: ukd8_base

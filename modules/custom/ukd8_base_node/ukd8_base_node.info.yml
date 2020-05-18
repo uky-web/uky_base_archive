@@ -1,0 +1,10 @@
+name: Event
+description: 'Provides base configuration for node entity implementation.'
+type: module
+core: 8.x
+dependencies:
+  - node
+  - ukd8_base_node_person
+  - ukd8_base_node_news
+
+package: ukd8_base

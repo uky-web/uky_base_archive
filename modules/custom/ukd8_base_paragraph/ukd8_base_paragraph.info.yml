@@ -1,0 +1,8 @@
+name: '*2:1 Slab'
+description: 'Provides common configuration for all Paragraphs implementation.'
+type: module
+core: 8.x
+dependencies:
+  - paragraphs
+  - ukd8_base_user
+package: ukd8_base

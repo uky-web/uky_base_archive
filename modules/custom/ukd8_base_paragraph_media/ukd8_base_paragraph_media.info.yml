@@ -1,0 +1,8 @@
+name: 'Media (full-width)'
+description: 'Provides Media (full-width) paragraphs type and related configuration. Full-width captioned media'
+type: module
+core: 8.x
+dependencies:
+  - paragraphs
+  
+package: ukd8_base

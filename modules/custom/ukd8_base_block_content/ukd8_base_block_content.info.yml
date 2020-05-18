@@ -1,0 +1,11 @@
+name: Event
+description: 'Provides base configuration for block content entity implementation.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - field
+  - ukd8_base_eck_collection_item
+
+package: ukd8_base
