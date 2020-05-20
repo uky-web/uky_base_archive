@@ -1,0 +1,15 @@
+name: 'ECK'
+description: 'Provides configuration for ECK Page Header entity type'
+type: module
+core: 8.x
+dependencies:
+  - auto_entitylabel
+  - entity_browser
+  - entity_reference_widget_helpers
+  - field_group
+  - headline_group
+  - link
+  - uky_base_eck
+  - uky_base_media
+
+package: uky_base

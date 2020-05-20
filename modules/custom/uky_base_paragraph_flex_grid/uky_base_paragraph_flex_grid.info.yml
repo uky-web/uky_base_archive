@@ -1,0 +1,12 @@
+name: '*Flex Grid'
+description: 'Provides *Flex Grid paragraphs type and related configuration. A completely flexible grid of single-column content blocks'
+type: module
+core: 8.x
+dependencies:
+  - entity_browser_entity_form
+  - entity_reference_widget_helpers
+  - field
+  - headline_group
+  - inline_entity_form
+  - paragraphs
+package: uky_base

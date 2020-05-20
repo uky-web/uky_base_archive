@@ -1,0 +1,12 @@
+name: 'Editorial Aside'
+description: 'Provides Editorial Aside paragraphs type and related configuration. Content with a floated aside'
+type: module
+core: 8.x
+dependencies:
+  - entity_browser_entity_form
+  - entity_reference_widget_helpers
+  - field
+  - headline_group
+  - inline_entity_form
+  - paragraphs
+package: uky_base

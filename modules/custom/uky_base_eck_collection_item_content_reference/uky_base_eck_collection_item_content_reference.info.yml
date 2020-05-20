@@ -1,0 +1,11 @@
+name: 'ECK'
+description: 'Provides configuration for ECK Collection Item entity type.'
+type: module
+core: 8.x
+dependencies:
+  - uky_base_eck_collection_item
+  - uky_base_node_event
+  - uky_base_node_news
+  - uky_base_node_person
+
+package: uky_base

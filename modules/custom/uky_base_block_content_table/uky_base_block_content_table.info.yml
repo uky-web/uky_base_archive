@@ -1,0 +1,9 @@
+name: Event
+description: 'Provides base configuration for a table block.'
+type: module
+core: 8.x
+dependencies:
+  - uky_base_block_content
+  - uky_base_eck_collection_item
+
+package: uky_base

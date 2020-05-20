@@ -1,8 +1,0 @@
-name: 'ECK'
-description: 'Provides configuration for ECK Location entity type'
-type: module
-core: 8.x
-dependencies:
-  - ukd8_base_eck
-
-package: ukd8_base

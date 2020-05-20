@@ -1,0 +1,12 @@
+name: Feed
+description: 'Provides Feed paragraphs type and related configuration. A filtered listing'
+type: module
+core: 8.x
+dependencies:
+  - entity_browser_entity_form
+  - entity_reference_widget_helpers
+  - field
+  - headline_group
+  - inline_entity_form
+  - paragraphs
+package: uky_base
