@@ -3,6 +3,7 @@ type: profile
 core: 8.x
 dependencies:
   - automated_cron
+  - contact
   - emergency_alerts
   - field
   - help
@@ -19,6 +20,7 @@ dependencies:
   - ukd8_base_core
   - ukd8_base_eck
   - ukd8_base_eck_collection_item
+  - ukd8_base_eck_collection_item_content_reference
   - ukd8_base_eck_location
   - ukd8_base_eck_page_header
   - ukd8_base_media

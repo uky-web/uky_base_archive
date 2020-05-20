@@ -20,6 +20,7 @@ dependencies:
   - text
   - user
   - ukd8_base_eck_page_header
+  - ukd8_base_node
   - ukd8_base_paragraph_body
   - ukd8_base_paragraph_calls_to_action
   - ukd8_base_paragraph_carousel

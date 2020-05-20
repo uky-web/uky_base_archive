@@ -8,8 +8,8 @@ dependencies:
   module:
     - block_content
     - block_visibility_groups
-  theme:
-    - ukd8
+  # theme:
+  #   - ukd8
 id: newsmediacontact
 theme: ukd8
 region: sidebar

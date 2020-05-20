@@ -1,0 +1,10 @@
+name: 'ECK Usage Views'
+description: 'Provides Views of usage of ECK entities.'
+type: module
+core: 8.x
+dependencies:
+  - ukd8_base_eck
+  - ukd8_base_eck_collection_item
+  - ukd8_base_paragraph
+
+package: ukd8_base

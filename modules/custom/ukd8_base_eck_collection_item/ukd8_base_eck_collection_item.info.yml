@@ -22,10 +22,11 @@ dependencies:
   - telephone
   - text
   - ukd8_base_eck
+  - ukd8_base_user
   - ukd8_base_media
-  - ukd8_base_node_event
-  - ukd8_base_node_news
-  - ukd8_base_node_person
+  # - ukd8_base_node_event
+  # - ukd8_base_node_news
+  # - ukd8_base_node_person
   - user
   - viewfield
   - views

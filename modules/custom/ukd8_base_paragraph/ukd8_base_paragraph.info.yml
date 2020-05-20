@@ -1,8 +1,9 @@
-name: '*2:1 Slab'
+name: 'Paragraphs Base'
 description: 'Provides common configuration for all Paragraphs implementation.'
 type: module
 core: 8.x
 dependencies:
   - paragraphs
   - ukd8_base_user
+  - ukd8_base_eck_collection_item
 package: ukd8_base

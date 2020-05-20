@@ -7,8 +7,8 @@ dependencies:
   module:
     - block_visibility_groups
     - views
-  theme:
-    - ukd8
+  # theme:
+  #   - ukd8
 id: exposedformnewspage_1
 theme: ukd8
 region: sidebar

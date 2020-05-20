@@ -19,6 +19,7 @@ dependencies:
     - name
     - telephone
     - user
+    - ukd8_base_node
 id: node.person.contact_info
 targetEntityType: node
 bundle: person
