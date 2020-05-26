@@ -13,6 +13,7 @@ dependencies:
   - ldap
   - menu_block
   - module_filter
+  - node
   - permissions_filter
   - search
   - shortcut
