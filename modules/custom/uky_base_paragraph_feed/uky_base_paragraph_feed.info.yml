@@ -1,4 +1,4 @@
-name: Feed
+name: UK Feed Paragraph
 description: 'Provides Feed paragraphs type and related configuration. A filtered listing'
 type: module
 core: 8.x

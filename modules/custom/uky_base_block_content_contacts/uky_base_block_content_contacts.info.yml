@@ -1,4 +1,4 @@
-name: Event
+name: UK Contacts Block
 description: 'Provides base configuration for a contacts block.'
 type: module
 core: 8.x

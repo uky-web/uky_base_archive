@@ -1,4 +1,4 @@
-name: News
+name: UK News Node
 description: 'Provides News content type and related configuration. News article'
 type: module
 core: 8.x

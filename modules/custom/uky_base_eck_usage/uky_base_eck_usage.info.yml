@@ -1,4 +1,4 @@
-name: 'ECK Usage Views'
+name: 'UK ECK Usage Views'
 description: 'Provides Views of usage of ECK entities.'
 type: module
 core: 8.x

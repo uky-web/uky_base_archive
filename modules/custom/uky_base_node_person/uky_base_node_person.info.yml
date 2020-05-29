@@ -1,4 +1,4 @@
-name: Person
+name: UK Person Node
 description: 'Provides Person content type and related configuration. Faculty or staff profile'
 type: module
 core: 8.x

@@ -1,5 +1,5 @@
-name: 'ECK'
-description: 'Provides configuration for ECK Collection Item entity type.'
+name: 'UK ECK Collection Item Content References'
+description: 'Provides configuration for ECK Collection Item entity type content references.'
 type: module
 core: 8.x
 dependencies:

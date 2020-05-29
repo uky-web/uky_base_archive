@@ -1,4 +1,4 @@
-name: 'Editorial Aside'
+name: 'UK Editorial Aside Paragraph'
 description: 'Provides Editorial Aside paragraphs type and related configuration. Content with a floated aside'
 type: module
 core: 8.x

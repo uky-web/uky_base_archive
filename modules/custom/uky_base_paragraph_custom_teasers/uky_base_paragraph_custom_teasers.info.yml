@@ -1,4 +1,4 @@
-name: 'Custom Teasers'
+name: 'UK Custom Teaser Paragraph'
 description: 'Provides Custom Teasers paragraphs type and related configuration. '
 type: module
 core: 8.x

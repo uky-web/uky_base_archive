@@ -1,4 +1,4 @@
-name: Statistics
+name: UK Statistics Paragraph
 description: 'Provides Statistics paragraphs type and related configuration. A list of numerical factoid panels'
 type: module
 core: 8.x

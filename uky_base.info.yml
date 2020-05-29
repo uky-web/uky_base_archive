@@ -6,18 +6,37 @@ dependencies:
   - admin_toolbar
   - adminimal_admin_toolbar
   - automated_cron
+  - color
+  - components
+  - config
   - contact
+  - contextual
+  - dblog
+  - dynamic_page_cache
   - emergency_alerts
   - field
+  - field_group
+  - field_group_settings
+  - field_ui
+  - file_browser
+  - fourxx_templates
   - help
-  - ldap
+  - history
+  - jquery_timepicker
+  # - ldap
+  - masquerade
   - menu_block
   - module_filter
   - node
+  - page_cache
   - permissions_filter
+  - rdf
+  - redirect
   - search
   - shortcut
   - system
+  - tab_toolbar
+  - ukd8_customizations
   - uky_base_block
   - uky_base_block_content
   - uky_base_block_content_basic
@@ -30,6 +49,7 @@ dependencies:
   - uky_base_eck_collection_item_content_reference
   - uky_base_eck_location
   - uky_base_eck_page_header
+  - uky_base_editor
   - uky_base_media
   - uky_base_menu
   - uky_base_node
@@ -52,10 +72,11 @@ dependencies:
   - uky_base_paragraph_statistics
   - uky_base_paragraph_zipper
   - uky_base_user
+  - uky_base_webform
   - user
   - views
-  - ukd8_customizations
-  - components
+  - views_ui
+  - xmlsitemap
 themes:
   - ukd8
   - seven

@@ -1,4 +1,4 @@
-name: 'Media (full-width)'
+name: 'UK Media (full-width) Paragraph'
 description: 'Provides Media (full-width) paragraphs type and related configuration. Full-width captioned media'
 type: module
 core: 8.x

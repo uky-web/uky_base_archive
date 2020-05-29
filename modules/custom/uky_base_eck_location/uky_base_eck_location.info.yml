@@ -1,4 +1,4 @@
-name: 'ECK'
+name: 'UK ECK Location'
 description: 'Provides configuration for ECK Location entity type'
 type: module
 core: 8.x

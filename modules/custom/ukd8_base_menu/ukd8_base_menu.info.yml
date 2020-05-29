@@ -1,4 +1,4 @@
-name: 'ECK'
+name: 'UK Menu'
 description: 'Provides base configuration for all menu implementation'
 type: module
 core: 8.x
@@ -10,4 +10,4 @@ dependencies:
 themes:
   - ukd8
 
-package: uky_base
+package: UKY Base

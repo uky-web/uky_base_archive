@@ -1,5 +1,5 @@
-name: 'Calls to Action'
-description: 'Provides Calls to Action paragraphs type and related configuration. '
+name: 'UK Body Paragraph'
+description: 'Provides Body paragraphs type and related configuration. '
 type: module
 core: 8.x
 dependencies:

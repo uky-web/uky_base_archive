@@ -1,4 +1,4 @@
-name: '*2:1 Slab'
+name: 'UK *2:1 Slab Paragraph'
 description: 'Provides *2:1 Slab paragraphs type and related configuration. A content + aside slab'
 type: module
 core: 8.x

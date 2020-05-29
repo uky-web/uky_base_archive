@@ -1,4 +1,4 @@
-name: Page
+name: UK Page Node
 description: 'Provides Page content type and related configuration. A paragraphs-based page'
 type: module
 core: 8.x

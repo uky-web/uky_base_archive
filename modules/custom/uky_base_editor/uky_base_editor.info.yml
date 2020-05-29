@@ -1,0 +1,9 @@
+name: 'UK Editor'
+description: 'Provides base configuration for editor widget and html filters'
+type: module
+core: 8.x
+dependencies:
+  - ckeditor
+  - linkit
+
+package: uky_base
