@@ -1,0 +1,16 @@
+name: UK User
+description: 'Provide User related configuration.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - file
+  - image
+  - ldap
+  - ldap_user
+  - ldap_authentication
+  - metatag
+  - path
+  - system
+  - user
+package: uky_base

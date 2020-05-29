@@ -1,0 +1,9 @@
+name: 'UK Webform'
+description: 'Provides base configuration for all Webform implementation'
+type: module
+core: 8.x
+dependencies:
+  - webform
+  - webform_ui
+
+package: uky_base

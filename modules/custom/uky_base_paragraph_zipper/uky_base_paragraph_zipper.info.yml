@@ -1,0 +1,14 @@
+name: UK Zipper Paragraph
+description: 'Provides Zipper paragraphs type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - entity_browser_entity_form
+  - entity_reference_widget_helpers
+  - field
+  - headline_group
+  - inline_entity_form
+  - uky_base_paragraph_body
+  - paragraphs
+  - text
+package: uky_base

@@ -1,0 +1,14 @@
+name: UK Gallery Paragraph
+description: 'Provides Gallery paragraphs type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - better_formats
+  - entity_browser_entity_form
+  - entity_reference_widget_helpers
+  - field
+  - headline_group
+  - inline_entity_form
+  - paragraphs
+  - text
+package: uky_base

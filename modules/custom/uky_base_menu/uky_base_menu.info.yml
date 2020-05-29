@@ -1,0 +1,15 @@
+name: 'UK Menu'
+description: 'Provides base configuration for all menu implementation'
+type: module
+core: 8.x
+dependencies:
+  # - menu
+  - block
+  - block_visibility_groups
+  - easy_breadcrumb
+  - menu_block 
+
+themes:
+  - ukd8
+
+package: uky_base
