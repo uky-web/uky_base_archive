@@ -1,8 +1,8 @@
 is_main: false
 lockup_wordmark_1: 'Your department'
 lockup_wordmark_2: name
-uky_home_url: 'http://www.uky.edu/'
-college_url: 'https://insidenewcity.com'
+uky_home_url: 'https://www.uky.edu/'
+college_url: 'https://www.uky.edu'
 college_title: 'Parent unit'
 show_college_under_lockup: false
 scheme_options:
