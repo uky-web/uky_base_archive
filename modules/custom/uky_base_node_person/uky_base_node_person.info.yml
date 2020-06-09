@@ -15,6 +15,7 @@ dependencies:
   - open_summary
   - paragraphs_previewer_popup
   - path
+  - pathauto
   - taxonomy
   - telephone
   - text

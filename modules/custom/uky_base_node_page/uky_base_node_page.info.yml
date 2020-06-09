@@ -19,6 +19,7 @@ dependencies:
   - paragraphs
   - paragraphs_previewer_popup
   - path
+  - pathauto
   - uky_base_eck_page_header
   - uky_base_node
   - uky_base_paragraph_body

@@ -24,6 +24,7 @@ dependencies:
   - paragraphs
   - paragraphs_previewer_popup
   - path
+  - pathauto
   - taxonomy
   - text
   - uky_base_eck_location
