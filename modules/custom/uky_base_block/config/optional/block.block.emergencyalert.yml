@@ -3,19 +3,19 @@ status: true
 dependencies:
   module:
     - block_visibility_groups
-    - emergency_alerts
+    - _alerts
   # theme:
   #   - ukd8
-id: emergencyalert
+id: alert
 theme: ukd8
 region: alert
 weight: -10
 provider: null
-plugin: emergency_alert
+plugin: _alert
 settings:
-  id: emergency_alert
-  label: 'Emergency Alert'
-  provider: emergency_alerts
+  id: _alert
+  label: ' Alert'
+  provider: _alerts
   label_display: '0'
 visibility:
   condition_group:

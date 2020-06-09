@@ -6,8 +6,8 @@ dependencies:
   module:
     - block_visibility_groups
     - menu_block
-  # theme:
-  #   - ukd8
+  theme:
+    - ukd8
 id: universalutilities
 theme: ukd8
 region: universal_nav
