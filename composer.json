@@ -148,6 +148,8 @@
     "drupal/fourxx_templates": "1.x-dev",
     "drupal/config_ignore": "^2.1",
     "drupal/search_kint": "^1.0",
+    "drupal/captcha": "^1.0",
+    "drupal/recaptcha": "^3.0",
     "uky-web/ukd8": "^0.1.6"
   },
   "config":{
