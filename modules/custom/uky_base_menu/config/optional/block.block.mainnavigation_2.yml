@@ -19,13 +19,13 @@ settings:
   label: 'Section navigation (mobile)'
   provider: menu_block
   label_display: '0'
-  follow: 1
-  follow_parent: '1'
+  follow: true
+  follow_parent: active
   level: 2
   depth: 0
-  expand: 0
+  expand: false
   parent: 'main:'
-  suggestion: main
+  suggestion: mobile
 visibility:
   condition_group:
     id: condition_group

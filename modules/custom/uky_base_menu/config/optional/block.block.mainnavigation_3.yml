@@ -19,13 +19,13 @@ settings:
   label: 'Main navigation (mobile)'
   provider: menu_block
   label_display: visible
-  follow: 0
-  follow_parent: 0
+  follow: false
+  follow_parent: '0'
   level: 1
   depth: 1
-  expand: 0
+  expand: false
   parent: 'main:'
-  suggestion: main
+  suggestion: mobile
 visibility:
   condition_group:
     id: condition_group

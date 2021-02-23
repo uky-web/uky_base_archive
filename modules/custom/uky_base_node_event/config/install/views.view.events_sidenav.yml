@@ -223,7 +223,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: '<h2><a href="/events" class="link--fancy-reverse">Back to Events</a><h2>'
+            value: '<h2><a href="[site:url]/events" class="link--fancy-reverse">Back to Events</a><h2>'
             format: full_html
           plugin_id: text
       footer: {  }
