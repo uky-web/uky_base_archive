@@ -222,7 +222,7 @@ display:
       display_extenders: {  }
       use_more: false
       use_more_always: true
-      use_more_text: 'View all'
+      use_more_text: 'View all news'
       link_url: ''
       link_display: '0'
     cache_metadata:
@@ -253,7 +253,7 @@ display:
       link_url: /news
       use_more: true
       use_more_always: true
-      use_more_text: 'View all'
+      use_more_text: 'View all news'
       sorts:
         created:
           id: created
@@ -362,7 +362,7 @@ display:
       link_url: /events
       use_more: true
       use_more_always: true
-      use_more_text: 'View all'
+      use_more_text: 'View all events'
       sorts:
         field_dates_value:
           id: field_dates_value
@@ -473,7 +473,7 @@ display:
       link_url: /people
       use_more: true
       use_more_always: true
-      use_more_text: 'View all'
+      use_more_text: 'View all people'
       sorts:
         field_name_family:
           id: field_name_family
