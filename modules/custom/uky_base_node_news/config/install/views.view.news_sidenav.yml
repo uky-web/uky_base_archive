@@ -209,7 +209,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: '<h2><a href="/news" class="link--fancy-reverse">Back to News</a><h2>'
+            value: '<h2><a href="[site:url]/news" class="link--fancy-reverse">Back to News</a><h2>'
             format: full_html
           plugin_id: text
       footer: {  }
