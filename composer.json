@@ -114,7 +114,7 @@
     "drupal/search_kint": "^1.0",
     "drupal/captcha": "^1.0",
     "drupal/recaptcha": "^3.0",
-    "uky-web/ukd8": "^0.1.6"
+    "uky-web/ukd8": "^1.0.0"
   },
   "config":{
     "optimize-autoloader": true,
