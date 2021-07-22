@@ -52,7 +52,6 @@
     "drupal/core": "^8.8.1",
     "drupal/core-composer-scaffold": "^8.8.1",
     "ahebrank/eck_autolabel": "dev-8.x-1.x",
-    "ahebrank/frontback": "dev-master",
     "ahebrank/paragraphs_previewer_popup": "dev-8.x-1.x",
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6",
