@@ -88,7 +88,6 @@
     "drupal/metatag": "^1.1",
     "drupal/module_filter":"^3.1",
     "drupal/name": "^1.0@RC",
-    "drupal/open_summary": "1.x-dev",
     "drupal/override_node_options": "^2.3",
     "drupal/paragraphs": "^1.0",
     "drupal/pathauto": "1.*",
