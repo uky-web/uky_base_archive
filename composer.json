@@ -110,7 +110,7 @@
     "drupal/config_ignore": "^2.1",
     "drupal/captcha": "^1.0",
     "drupal/recaptcha": "^3.0",
-    "uky-web/ukd8": "^1.0.0"
+    "uky-web/ukd8": "2.0.x-dev"
   },
   "config":{
     "optimize-autoloader": true,
