@@ -103,7 +103,7 @@
     "drupal/field_group_settings": "^3",
     "drupal/menu_block": "^1.5",
     "drupal/tab_toolbar": "^1.0@beta",
-    "drupal/described_link": "1.x-dev",
+    "drupal/described_link": "^1.0",
     "drupal/linkit_telephone": "1.x-dev",
     "drupal/emergency_alerts": "2.x-dev",
     "drupal/fourxx_templates": "1.x-dev",
