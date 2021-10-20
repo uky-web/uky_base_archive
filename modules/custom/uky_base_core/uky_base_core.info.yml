@@ -1,7 +1,7 @@
 name: UK Core
 description: 'Provides common modules and configuration required by other features.'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - block
   - block_content

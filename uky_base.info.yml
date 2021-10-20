@@ -1,7 +1,7 @@
 name: University of Kentucky Drupal Platform
 type: profile
 version: 1.0-rc1
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - admin_toolbar
   - adminimal_admin_toolbar

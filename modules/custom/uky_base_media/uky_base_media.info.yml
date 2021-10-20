@@ -1,7 +1,7 @@
 name: 'UK Media'
 description: 'Provides configuration for Media module and related media management'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - chosen_field
   - dropzonejs_eb_widget

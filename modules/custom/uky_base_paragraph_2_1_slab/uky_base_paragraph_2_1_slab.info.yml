@@ -1,7 +1,6 @@
 name: 'UK *2:1 Slab Paragraph'
 description: 'Provides *2:1 Slab paragraphs type and related configuration. A content + aside slab'
-type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - entity_browser_entity_form
   - entity_reference_widget_helpers

@@ -1,7 +1,7 @@
 name: UK Node
 description: 'Provides base configuration for node entity implementation.'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - node
   - override_node_options

@@ -1,7 +1,7 @@
 name: UK Event Node
 description: 'Provides Event content type and related configuration. A structured event'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - better_formats
   - block_visibility_groups

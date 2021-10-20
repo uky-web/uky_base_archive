@@ -1,7 +1,7 @@
 name: UK User
 description: 'Provide User related configuration.'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - field
   - file

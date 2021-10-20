@@ -1,7 +1,7 @@
 name: UK Block
 description: 'Provides base configuration for blocks.'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - drupal:block
   - block_visibility_groups

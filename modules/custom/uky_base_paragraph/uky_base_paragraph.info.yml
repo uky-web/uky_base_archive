@@ -1,7 +1,7 @@
 name: 'UK Paragraphs'
 description: 'Provides common configuration for all Paragraphs implementation.'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - paragraphs
   - paragraphs_type_permissions

@@ -1,7 +1,7 @@
 name: UK Page Node
 description: 'Provides Page content type and related configuration. A paragraphs-based page'
 type: module
-core: 8.x
+core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - auto_entitylabel
   - entity_browser
