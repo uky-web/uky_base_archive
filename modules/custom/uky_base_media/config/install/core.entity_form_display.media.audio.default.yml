@@ -7,7 +7,6 @@ dependencies:
     - media.type.audio
   module:
     - chosen_field
-    - entity_reference_widget_helpers
     - file
     - path
 id: media.audio.default

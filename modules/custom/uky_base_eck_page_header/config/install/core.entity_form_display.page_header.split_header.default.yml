@@ -11,7 +11,6 @@ dependencies:
     - field.field.page_header.split_header.field_theme_color_scheme
   module:
     - entity_browser
-    - entity_reference_widget_helpers
     - field_group
     - headline_group
     - link

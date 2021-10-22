@@ -8,7 +8,6 @@ dependencies:
     - field.field.paragraph.statistics.field_theme_show_divisions
     - paragraphs.paragraphs_type.statistics
   module:
-    - entity_reference_widget_helpers
     - field_group
     - headline_group
     - inline_entity_form

@@ -8,7 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.gallery
   module:
     - entity_browser_entity_form
-    - entity_reference_widget_helpers
     - headline_group
     - inline_entity_form
     - text

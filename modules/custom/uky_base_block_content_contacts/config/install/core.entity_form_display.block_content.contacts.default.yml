@@ -7,7 +7,6 @@ dependencies:
     - field.field.block_content.contacts.field_link
   module:
     - entity_browser_entity_form
-    - entity_reference_widget_helpers
     - inline_entity_form
     - link
 id: block_content.contacts.default

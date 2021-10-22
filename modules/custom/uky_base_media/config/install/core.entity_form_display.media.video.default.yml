@@ -8,7 +8,6 @@ dependencies:
     - media.type.video
   module:
     - chosen_field
-    - entity_reference_widget_helpers
     - file
     - path
 id: media.video.default

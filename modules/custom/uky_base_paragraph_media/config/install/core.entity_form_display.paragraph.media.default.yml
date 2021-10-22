@@ -5,7 +5,6 @@ dependencies:
     - field.field.paragraph.media.field_collection_item
     - paragraphs.paragraphs_type.media
   module:
-    - entity_reference_widget_helpers
     - inline_entity_form
 id: paragraph.media.default
 targetEntityType: paragraph

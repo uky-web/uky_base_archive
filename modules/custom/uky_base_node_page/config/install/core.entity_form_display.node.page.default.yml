@@ -10,7 +10,6 @@ dependencies:
     - node.type.page
   module:
     - entity_browser_entity_form
-    - entity_reference_widget_helpers
     - inline_entity_form
     - metatag
     - paragraphs

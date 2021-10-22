@@ -12,7 +12,6 @@ dependencies:
     - field.field.node.news.field_paragraphs
     - node.type.news
   module:
-    - entity_reference_widget_helpers
     - headline_group
     - text
     - user

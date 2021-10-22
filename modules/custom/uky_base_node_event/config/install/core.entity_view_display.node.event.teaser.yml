@@ -15,7 +15,6 @@ dependencies:
     - node.type.event
   module:
     - datetime_range
-    - entity_reference_widget_helpers
     - headline_group
     - text
     - user

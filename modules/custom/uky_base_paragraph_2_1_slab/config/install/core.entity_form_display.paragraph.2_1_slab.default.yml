@@ -9,7 +9,6 @@ dependencies:
     - paragraphs.paragraphs_type.2_1_slab
   module:
     - entity_browser_entity_form
-    - entity_reference_widget_helpers
     - headline_group
     - inline_entity_form
 id: paragraph.2_1_slab.default

@@ -16,7 +16,6 @@ dependencies:
     - field.field.node.person.field_preferred_name
     - node.type.person
   module:
-    - entity_reference_widget_helpers
     - name
     - telephone
     - text

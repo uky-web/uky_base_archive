@@ -9,7 +9,6 @@ dependencies:
     - media.type.image
   module:
     - chosen_field
-    - entity_reference_widget_helpers
     - focal_point
 id: media.image.default
 targetEntityType: media

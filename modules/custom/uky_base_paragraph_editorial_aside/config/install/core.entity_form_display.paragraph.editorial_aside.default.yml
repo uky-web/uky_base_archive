@@ -9,7 +9,6 @@ dependencies:
     - paragraphs.paragraphs_type.editorial_aside
   module:
     - entity_browser_entity_form
-    - entity_reference_widget_helpers
     - headline_group
     - inline_entity_form
 id: paragraph.editorial_aside.default
