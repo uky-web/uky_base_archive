@@ -3,7 +3,6 @@ description: 'Provides Statistics paragraphs type and related configuration. A l
 type: module
 core_version_requirement: ^8.9.19 || ^9
 dependencies:
-  - entity_reference_widget_helpers
   - field
   - field_group
   - headline_group

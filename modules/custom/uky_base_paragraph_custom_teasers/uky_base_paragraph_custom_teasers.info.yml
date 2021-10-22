@@ -4,7 +4,6 @@ type: module
 core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - entity_browser_entity_form
-  - entity_reference_widget_helpers
   - field
   - headline_group
   - inline_entity_form

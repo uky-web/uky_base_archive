@@ -11,7 +11,6 @@ dependencies:
   - entity_browser_enhanced
   - entity_browser_entity_form
   - entity_embed
-  - entity_reference_widget_helpers
   - field
   - file
   - file_browser
