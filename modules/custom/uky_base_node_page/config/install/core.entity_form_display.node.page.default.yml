@@ -48,10 +48,6 @@ content:
     third_party_settings:
       entity_browser_entity_form:
         entity_browser_id: _none
-      entity_reference_widget_helpers:
-        dropdown_if_less: ''
-        use_dropdown: 0
-        collection_link: 0
     type: inline_entity_form_complex
     region: content
   field_paragraphs:
@@ -65,8 +61,6 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings:
-      entity_reference_widget_helpers:
-        show_paragraph_description: '1'
       paragraphs_previewer_popup:
         enable: '1'
     region: content
@@ -81,8 +75,6 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings:
-      entity_reference_widget_helpers:
-        show_paragraph_description: '1'
       paragraphs_previewer_popup:
         enable: '1'
     region: content
@@ -97,8 +89,6 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings:
-      entity_reference_widget_helpers:
-        show_paragraph_description: '1'
       paragraphs_previewer_popup:
         enable: '1'
     region: content

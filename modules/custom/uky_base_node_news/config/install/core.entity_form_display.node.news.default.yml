@@ -78,9 +78,6 @@ content:
       placeholder: ''
       summary_rows: 3
       show_summary: false
-    third_party_settings:
-      open_summary:
-        summary_open: '1'
     region: content
   created:
     type: datetime_timestamp
@@ -99,9 +96,6 @@ content:
   field_categories:
     weight: 4
     settings: {  }
-    third_party_settings:
-      entity_reference_widget_helpers:
-        collection_link: '1'
     type: chosen_select
     region: content
   field_header_style:
@@ -127,9 +121,6 @@ content:
       selection_mode: selection_append
       field_widget_display_settings:
         view_mode: half_width
-    third_party_settings:
-      entity_reference_widget_helpers:
-        collection_link: 0
     type: entity_browser_entity_reference
     region: content
   field_paragraphs:
@@ -144,8 +135,6 @@ content:
     third_party_settings:
       paragraphs_previewer_popup:
         enable: '1'
-      entity_reference_widget_helpers:
-        show_paragraph_description: 0
     type: entity_reference_paragraphs
     region: content
   path:

@@ -18,11 +18,6 @@ content:
       override_labels: true
       label_singular: 'media item'
       label_plural: 'media items'
-    third_party_settings:
-      entity_reference_widget_helpers:
-        dropdown_if_less: ''
-        use_dropdown: 0
-        collection_link: 0
     type: inline_entity_form_simple
     region: content
 hidden:

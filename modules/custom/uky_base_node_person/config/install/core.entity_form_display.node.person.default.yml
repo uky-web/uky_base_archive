@@ -37,9 +37,6 @@ content:
       placeholder: ''
       summary_rows: 3
       show_summary: false
-    third_party_settings:
-      open_summary:
-        summary_open: 0
     region: content
   created:
     type: datetime_timestamp
@@ -50,9 +47,6 @@ content:
   field_categories:
     weight: 8
     settings: {  }
-    third_party_settings:
-      entity_reference_widget_helpers:
-        collection_link: '1'
     type: chosen_select
     region: content
   field_email:
@@ -83,9 +77,6 @@ content:
         view_mode: thumbnail
       open: false
       field_widget_replace: false
-    third_party_settings:
-      entity_reference_widget_helpers:
-        collection_link: 0
     type: entity_browser_entity_reference
     region: content
   field_location_text:
@@ -108,9 +99,6 @@ content:
       field_widget_display_settings:
         view_mode: thumbnail
       field_widget_replace: false
-    third_party_settings:
-      entity_reference_widget_helpers:
-        collection_link: 0
     type: entity_browser_entity_reference
     region: content
   field_name:
@@ -129,8 +117,6 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings:
-      entity_reference_widget_helpers:
-        show_paragraph_description: '1'
       paragraphs_previewer_popup:
         enable: '1'
     type: entity_reference_paragraphs

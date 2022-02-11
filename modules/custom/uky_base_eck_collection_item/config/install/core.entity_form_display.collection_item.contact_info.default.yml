@@ -72,9 +72,6 @@ content:
       selection_mode: selection_append
       field_widget_display_settings:
         view_mode: thumbnail
-    third_party_settings:
-      entity_reference_widget_helpers:
-        collection_link: 0
     type: entity_browser_entity_reference
     region: content
   field_name_text:
@@ -100,8 +97,4 @@ content:
     settings:
       size: 60
       placeholder: 'Contact us'
-    third_party_settings:
-      entity_reference_widget_helpers:
-        eck_title_label_override: ''
-        eck_title_description_override: ''
 hidden: {  }
