@@ -30,6 +30,7 @@ content:
   field_tags:
     weight: 26
     settings: {  }
+    third_party_settings: {  }
     type: chosen_select
     region: content
   name:

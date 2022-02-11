@@ -18,6 +18,7 @@ content:
       override_labels: true
       label_singular: 'media item'
       label_plural: 'media items'
+    third_party_settings: {  }
     type: inline_entity_form_simple
     region: content
 hidden:

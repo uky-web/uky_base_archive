@@ -85,6 +85,7 @@ content:
       placeholder: ''
       summary_rows: 3
       show_summary: false
+    third_party_settings: {  }
     region: content
   created:
     type: datetime_timestamp
@@ -102,6 +103,7 @@ content:
   field_categories:
     weight: 5
     settings: {  }
+    third_party_settings: {  }
     type: chosen_select
     region: content
   field_dates:
@@ -152,6 +154,7 @@ content:
       field_widget_display_settings:
         view_mode: half_width
       field_widget_replace: false
+    third_party_settings: {  }
     type: entity_browser_entity_reference
     region: content
   field_paragraphs:

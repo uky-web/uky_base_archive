@@ -72,6 +72,7 @@ content:
       selection_mode: selection_append
       field_widget_display_settings:
         view_mode: thumbnail
+    third_party_settings: {  }
     type: entity_browser_entity_reference
     region: content
   field_name_text:
@@ -97,4 +98,5 @@ content:
     settings:
       size: 60
       placeholder: 'Contact us'
+    third_party_settings: {  }
 hidden: {  }
