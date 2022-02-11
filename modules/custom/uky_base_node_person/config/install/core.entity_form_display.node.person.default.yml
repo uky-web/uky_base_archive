@@ -37,9 +37,6 @@ content:
       placeholder: ''
       summary_rows: 3
       show_summary: false
-    third_party_settings:
-      open_summary:
-        summary_open: 0
     region: content
   created:
     type: datetime_timestamp
