@@ -138,8 +138,6 @@ content:
     third_party_settings:
       paragraphs_previewer_popup:
         enable: '1'
-      entity_reference_widget_helpers:
-        show_paragraph_description: 0
     type: entity_reference_paragraphs
     region: content
   path:
