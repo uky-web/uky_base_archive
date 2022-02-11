@@ -39,9 +39,7 @@ content:
   field_tags:
     weight: 26
     settings: {  }
-    third_party_settings:
-      entity_reference_widget_helpers:
-        collection_link: '1'
+    third_party_settings: {  }
     type: chosen_select
     region: content
   name:
