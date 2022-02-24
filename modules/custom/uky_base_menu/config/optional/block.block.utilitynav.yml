@@ -8,8 +8,6 @@ dependencies:
     - menu_block
   theme:
     - ukd8
-_core:
-  default_config_hash: kMhVN2E0VXwe-ohkpJinPVsm3fZ5Hdo7KutGvc0EWT8
 id: utilitynav
 theme: ukd8
 region: utility_nav
