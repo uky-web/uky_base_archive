@@ -1,11 +1,49 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.inline_html
+    - filter.format.restricted_html
+    - media.type.audio
+    - media.type.file
+    - media.type.hosted_video
+    - media.type.image
+    - media.type.video
+    - node.type.event
+    - node.type.news
+    - node.type.page
+    - node.type.person
+    - taxonomy.vocabulary.media_tags
+    - taxonomy.vocabulary.news_events_categories
+    - taxonomy.vocabulary.people_categories
+  module:
+    - better_formats
+    - contextual
+    - eck
+    - embederator
+    - entity_browser
+    - filter
+    - media
+    - metatag
+    - node
+    - override_node_options
+    - paragraphs_type_permissions
+    - path
+    - redirect
+    - shortcut
+    - system
+    - taxonomy
+    - toolbar
+    - webform
+_core:
+  default_config_hash: gPmEjphcaL67q2B6G82O1LBTQKodbfdElq6q6q1uaqU
 id: content_editor
 label: 'Content Editor'
 weight: 3
 is_admin: null
 permissions:
+  - 'access administration pages'
   - 'access content overview'
   - 'access contextual links'
   - 'access frontback'
