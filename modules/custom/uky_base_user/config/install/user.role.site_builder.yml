@@ -1,33 +1,6 @@
 langcode: en
 status: true
-dependencies:
-  config:
-    - filter.format.basic_html
-    - filter.format.inline_html
-    - filter.format.restricted_html
-  module:
-    - block
-    - block_content
-    - block_visibility_groups
-    - eck
-    - embederator
-    - entity_browser
-    - field_group_settings
-    - field_ui
-    - filter
-    - masquerade
-    - media
-    - metatag
-    - node
-    - override_node_options
-    - paragraphs
-    - system
-    - taxonomy
-    - toolbar
-    - views_ui
-    - webform
-_core:
-  default_config_hash: v5GR5dYYTxpWbIic7y1KQHY6GQPwxcXcEQ2WTymJKoE
+dependencies: {  }
 id: site_builder
 label: 'Site Builder'
 weight: 5
