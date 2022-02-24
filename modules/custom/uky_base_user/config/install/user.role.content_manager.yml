@@ -1,41 +1,6 @@
 langcode: en
 status: true
-dependencies:
-  config:
-    - filter.format.basic_html
-    - filter.format.inline_html
-    - filter.format.restricted_html
-    - media.type.audio
-    - media.type.file
-    - media.type.hosted_video
-    - media.type.image
-    - media.type.video
-    - taxonomy.vocabulary.media_tags
-    - taxonomy.vocabulary.news_events_categories
-    - taxonomy.vocabulary.people_categories
-  module:
-    - better_formats
-    - contextual
-    - eck
-    - embederator
-    - emergency_alerts
-    - entity_browser
-    - field_group_settings
-    - filter
-    - media
-    - metatag
-    - node
-    - override_node_options
-    - path
-    - redirect
-    - shortcut
-    - system
-    - taxonomy
-    - toolbar
-    - webform
-    - xmlsitemap
-_core:
-  default_config_hash: 1t33nPq1_RmdYMVY3ZLkwzlkrKvMQ6LvJZ1eM7ROdpY
+dependencies: {  }
 id: content_manager
 label: 'Content Manager'
 weight: 4
