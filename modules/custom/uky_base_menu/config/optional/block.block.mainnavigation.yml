@@ -7,8 +7,8 @@ dependencies:
   module:
     - block_visibility_groups
     - menu_block
-  theme:
-    - ukd8
+  #theme:
+  #  - ukd8
 _core:
   default_config_hash: TTyvZxUlfWLJ-U_KbNqhEFOrc2d21INuBK55NS8IheQ
 id: mainnavigation
