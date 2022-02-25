@@ -6,6 +6,7 @@ label: 'Site Builder'
 weight: 5
 is_admin: null
 permissions:
+  - 'access administration pages'
   - 'access any webform configuration'
   - 'access browse_files entity browser pages'
   - 'access browse_files_modal entity browser pages'
