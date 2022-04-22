@@ -77,6 +77,11 @@ dependencies:
   - views
   - views_ui
   - xmlsitemap
+
+# Modules to install to support the profile.
+install:
+  - raven
+  
 themes:
   - ukd8
   - seven
