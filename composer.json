@@ -89,6 +89,7 @@
     "drupal/paragraphs": "^1.0",
     "drupal/pathauto": "1.*",
     "drupal/permissions_filter":"^1.1",
+    "drupal/raven": "^3.2",
     "drupal/redirect": "^1.0",
     "drupal/redis": "^1.0",
     "drupal/url_embed": "1.*",
