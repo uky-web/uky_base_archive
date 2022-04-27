@@ -5,22 +5,11 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "license": "MIT",
-  "authors":[
-    {
-      "name": "Nicole Sand",
-      "email": "nicole.sand@uky.edu",
-      "role": "Developer"
-    },
-    {
-      "name": "Andy Shooner",
-      "email": "andrew.shooner@uky.edu",
-      "role": "Developer"
-    },
-    {
-      "name": "Jason Ullstam",
-      "email": "jason.ullstam@uky.edu",
-      "role": "Developer"
-    }
+  "authors": [
+      {
+          "name": "University of Kentucky Webcom",
+          "email": "universitywebservices@l.uky.edu"
+      }
   ],
   "support": {
     "source": "https://gitlab.com/uky-web/university-web-platform/drupal-8/ukd8-install-profile"
@@ -28,9 +17,13 @@
   "repositories": [
     {
       "type": "composer",
+      "url": "https://composer.uky.dev"
+    },
+    {
+      "type": "composer",
       "url": "https://packages.drupal.org/8"
-  },
-      {
+    },
+    {
       "type": "composer",
       "url": "https://asset-packagist.org"
     }
