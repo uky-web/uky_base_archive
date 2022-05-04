@@ -25,7 +25,7 @@ ssl: verify_ssl
 ca_cert: ''
 ignored_channels: {  }
 send_user_data: true
-rate_limit: 5
+rate_limit: 0
 send_request_body: false
 request_tracing: true
 traces_sample_rate: null
