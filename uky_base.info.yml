@@ -4,7 +4,6 @@ version: 2.0.x
 core_version_requirement: ^8.9.19 || ^9
 dependencies:
   - admin_toolbar
-  - adminimal_admin_toolbar
   - automated_cron
   - color
   - components
@@ -80,6 +79,7 @@ dependencies:
 
 # Modules to install to support the profile.
 install:
+  - adminimal_admin_toolbar
   - raven
   
 themes:
