@@ -2,9 +2,19 @@ name: University of Kentucky Drupal Platform
 type: profile
 version: 2.0.x
 core_version_requirement: ^8.9.19 || ^9
+
+# Modules to install to support the profile but not make required.
+install:
+  - adminimal_admin_toolbar
+  - captcha
+  - fpa
+  - r4032login
+  - raven
+  - recaptcha
+
+# Required modules.
 dependencies:
   - admin_toolbar
-  - adminimal_admin_toolbar
   - automated_cron
   - color
   - components
@@ -77,14 +87,11 @@ dependencies:
   - views
   - views_ui
   - xmlsitemap
-
-# Modules to install to support the profile.
-install:
-  - raven
   
 themes:
   - ukd8
   - seven
+  
 package: uky_base
 distribution:
   name: UK Drupal Platform
