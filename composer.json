@@ -46,7 +46,6 @@
     "symfony/css-selector": "~2.8"
   },
   "require": {
-    "drupal/config_installer": "^1.0",
     "oomphinc/composer-installers-extender": "^2.0",
     "drupal/console": "^1.0.2",
     "drupal/core": "^8.8.1",
