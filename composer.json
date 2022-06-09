@@ -24,9 +24,42 @@
       "url": "https://packages.drupal.org/8"
     },
     {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
+      "type"    : "package",
+      "package" : {
+        "name"    : "enyo/dropzone",
+        "version" : "5.7.2",
+        "type"    : "drupal-library",
+        "dist"    : {
+          "url"  : "https://github.com/enyo/dropzone/archive/v5.7.2.zip",
+          "type" : "zip"
+        }
+      }
+  },
+  {
+    "type": "package",
+    "package": {
+      "name": "desandro/imagesloaded",
+      "version": "4.1.4",
+      "type": "drupal-library",
+      "dist": {
+          "url": "https://github.com/desandro/imagesloaded/archive/v4.1.4.zip",
+          "type": "zip"
+      }
     }
+  },
+  {
+    "type": "package",
+    "package": {
+      "name": "desandro/masonry",
+      "version": "4.2.1",
+      "type": "drupal-library",
+      "dist": {
+        "url": "https://github.com/desandro/masonry/archive/v4.2.1.zip",
+        "type": "zip"
+      }
+    }
+  }
+
 ],
   "require-dev": {
     "drupal/drupal-extension": "^3.1",
@@ -47,9 +80,8 @@
     "ahebrank/paragraphs_previewer_popup": "dev-8.x-1.x",
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6",
-    "bower-asset/dropzone": "5.7.2",
-    "bower-asset/imagesloaded": "^4.1",
-    "bower-asset/masonry": "^4.2",
+    "desandro/imagesloaded": "4.1.4",
+    "desandro/masonry": "4.2.1",
     "drupal/admin_toolbar":"^3.0",
     "drupal/adminimal_admin_toolbar":"^1.11",
     "drupal/externalauth":"^1.3",
@@ -125,6 +157,7 @@
     "drupal/views_taxonomy_term_name_depth": "^7.0",
     "drupal/views_taxonomy_term_name_into_id": "^1.0@alpha",
     "drupal/webform_score": "^2.1",
+    "enyo/dropzone": "5.7.2",
     "uky-web/ukd8": "^2.0"
   },
   "config":{
@@ -133,10 +166,6 @@
     "sort-packages": true
   },
     "extra": {
-        "installer-types": [
-        "npm-asset",
-        "bower-asset"
-       ],
       "patches": {
         "drupal/core": {
           "Node and comment delete action require a plugin type":"https://www.drupal.org/files/issues/2018-09-17/2999737-10_1.patch"
