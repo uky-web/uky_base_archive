@@ -33,7 +33,6 @@ dependencies:
   - help
   - history
   - jquery_timepicker
-  # - ldap
   - masquerade
   - menu_block
   - module_filter
