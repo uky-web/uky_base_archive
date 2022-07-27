@@ -8,6 +8,11 @@ install:
   - adminimal_admin_toolbar
   - captcha
   - fpa
+  - ldap
+  - ldap_authentication
+  - ldap_query
+  - ldap_servers
+  - ldap_user
   - r4032login
   - raven
   - recaptcha
@@ -33,7 +38,6 @@ dependencies:
   - help
   - history
   - jquery_timepicker
-  # - ldap
   - masquerade
   - menu_block
   - module_filter
