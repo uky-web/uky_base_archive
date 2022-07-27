@@ -8,6 +8,7 @@ install:
   - adminimal_admin_toolbar
   - captcha
   - fpa
+  - ldap
   - r4032login
   - raven
   - recaptcha
