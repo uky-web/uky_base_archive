@@ -2,6 +2,11 @@ name: UK User
 description: 'Provide User related configuration.'
 type: module
 core_version_requirement: ^8.9.19 || ^9
+install:
+  - ldap_authentication
+  - ldap_query
+  - ldap_servers
+  - ldap_user
 dependencies:
   - field
   - file
