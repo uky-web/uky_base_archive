@@ -87,6 +87,7 @@ dependencies:
   - uky_base_paragraph_zipper
   - uky_base_user
   - uky_base_webform
+  - update
   - user
   - views
   - views_ui
