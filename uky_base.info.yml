@@ -21,7 +21,6 @@ install:
 dependencies:
   - admin_toolbar
   - automated_cron
-  - color
   - components
   - config
   - contact
