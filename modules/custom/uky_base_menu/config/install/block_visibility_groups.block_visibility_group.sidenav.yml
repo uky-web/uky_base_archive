@@ -1,8 +1,5 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - ctools
 id: sidenav
 label: Sidenav
 logic: and
