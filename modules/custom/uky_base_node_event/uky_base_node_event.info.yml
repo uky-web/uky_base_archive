@@ -6,7 +6,6 @@ dependencies:
   - better_formats
   - block_visibility_groups
   - chosen_field
-  - ctools
   - datetime
   - datetime_range
   - entity_browser
