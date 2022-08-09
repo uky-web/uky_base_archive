@@ -27,6 +27,7 @@ dependencies:
   - contextual
   - dblog
   - dynamic_page_cache
+  - embederator
   - emergency_alerts
   - field
   - field_group
@@ -83,6 +84,7 @@ dependencies:
   - uky_base_paragraph_link_lists
   - uky_base_paragraph_media
   - uky_base_paragraph_statistics
+  - uky_base_paragraph_uky_maps
   - uky_base_paragraph_zipper
   - uky_base_user
   - uky_base_webform
@@ -93,6 +95,7 @@ dependencies:
   
 themes:
   - ukd8
+  - claro
   - seven
   
 package: uky_base
