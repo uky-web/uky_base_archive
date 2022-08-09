@@ -42,3 +42,16 @@ function uky_base_install() {
   ]);
   $shortcut->save();
 }
+
+
+
+/**
+ * Updates uky base to enable uky maps module.
+ *
+ */
+function uky_base_update_9201() {
+  // Update to enable uky maps moudle.
+
+  \Drupal::service('module_installer')->install(['uky_base_paragraph_uky_maps']);
+}
+
