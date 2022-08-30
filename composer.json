@@ -29,19 +29,11 @@
     }
 ],
   "require-dev": {
-    "drupal/drupal-extension": "^3.1",
-    "behat/mink": "~1.7",
-    "behat/mink-goutte-driver": "~1.2",
-    "jcalderonzumba/gastonjs": "~1.0.2",
-    "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-    "mikey179/vfsstream": "~1.2",
-    "phpunit/phpunit": "~4.8",
-    "symfony/css-selector": "~2.8"
-  },
+ },
   "require": {
     "oomphinc/composer-installers-extender": "^2.0",
-    "drupal/console": "^1.0.2",
-    "drupal/core": "^9.2.7",
+    "drupal/console": "~1.0",
+    "drupal/core": "^9.4.5",
     "drupal/core-composer-scaffold": "^9.2",
     "ahebrank/eck_autolabel": "dev-8.x-1.x",
     "ahebrank/paragraphs_previewer_popup": "dev-8.x-1.x",
@@ -124,8 +116,7 @@
     "drupal/views_fieldsets": "^3.4",
     "drupal/views_taxonomy_term_name_depth": "^7.0",
     "drupal/views_taxonomy_term_name_into_id": "^1.0@alpha",
-    "drupal/webform_score": "^2.1",
-    "uky-web/ukd8": "^2.0"
+    "drupal/webform_score": "^2.1"
   },
   "config":{
     "optimize-autoloader": true,
@@ -134,27 +125,11 @@
   },
     "extra": {
         "installer-types": [
-        "npm-asset",
-        "bower-asset"
+        "npm-asset"
        ],
       "patches": {
-        "drupal/core": {
-          "Node and comment delete action require a plugin type":"https://www.drupal.org/files/issues/2018-09-17/2999737-10_1.patch"
-        },
-        "drupal/devel": {
-        "limit kint levels": "https://gist.githubusercontent.com/ahebrank/b201f88201bf036e65067988b50dc2c3/raw/254f1c68054db34ef0a8108fe7ec7ba3b7fb63da/kint_limit_max_levels.patch"
-        },
         "drupal/linkit": {
           "simple matcher patch": "https://www.drupal.org/files/issues/2018-06-20/fix-non-entity-path.interdiff.patch"
-        },
-        "drupal/auto_entitylabel": {
-          "don't use entity provider name": "https://www.drupal.org/files/issues/auto_entitylabel-2923876-7-Broken-when-provider-entityId.patch"
-        },
-        "drupal/inline_entity_form": {
-          "multivalue fix": "https://www.drupal.org/files/issues/2019-12-28/inline_entity_form-2653574-141.patch"
-        },
-        "drupal/menu_block": {
-          "follow active": "https://www.drupal.org/files/issues/2018-05-10/menu_block-follow-2756675-50.patch"
         }
       },
       "composer-exit-on-patch-failure": true,
