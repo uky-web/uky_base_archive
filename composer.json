@@ -114,7 +114,8 @@
     "drupal/views_fieldsets": "^3.4",
     "drupal/views_taxonomy_term_name_depth": "^7.0",
     "drupal/views_taxonomy_term_name_into_id": "^1.0@alpha",
-    "drupal/webform_score": "^2.1"
+    "drupal/webform_score": "^2.1",
+    "uky-web/ukd8": "^2.0"
   },
   "config":{
     "optimize-autoloader": true,
@@ -123,8 +124,7 @@
   },
     "extra": {
         "installer-types": [
-        "npm-asset",
-        "bower-asset"
+        "npm-asset"
        ],
       "patches": {
         "drupal/linkit": {
