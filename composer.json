@@ -28,8 +28,6 @@
       "url": "https://asset-packagist.org"
     }
 ],
-  "require-dev": {
- },
   "require": {
     "oomphinc/composer-installers-extender": "^2.0",
     "drupal/console": "~1.0",
