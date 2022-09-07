@@ -102,6 +102,8 @@
     "drupal/migrate_plus": "^6.0",
     "drupal/migrate_source_csv": "^3.5",
     "drupal/migrate_tools": "^6.0",
+    "drupal/migrate_upgrade": "^4.0",
+    "drupal/scanner": "^1.0@RC",
     "drupal/oembed_providers": "^2.0",
     "drupal/quick_node_clone": "^1.15",
     "drupal/r4032login": "^2.2",
