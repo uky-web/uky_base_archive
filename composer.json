@@ -110,6 +110,7 @@
     "drupal/recaptcha_v3": "^1.6",
     "drupal/rules": "^3.0@alpha",
     "drupal/search_api": "^1.23",
+    "drupal/tablefield": "^2.3",
     "drupal/taxonomy_menu": "^3.5",
     "drupal/views_bulk_edit": "^2.6",
     "drupal/views_bulk_operations": "^4.1",
