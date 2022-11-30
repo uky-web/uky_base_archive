@@ -5,8 +5,6 @@ dependencies:
     - image.style.big_4
     - image.style.medium_4x3
     - image.style.small_4x3
-  # theme:
-  #   - ukd8
 id: 4x3
 label: 4x3
 image_style_mappings:

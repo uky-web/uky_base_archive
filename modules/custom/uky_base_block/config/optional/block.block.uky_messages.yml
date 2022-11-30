@@ -3,8 +3,6 @@ status: false
 dependencies:
   module:
     - system
-  # theme:
-  #   - ukd8
 id: uky_messages
 theme: ukd8
 region: content_prefix

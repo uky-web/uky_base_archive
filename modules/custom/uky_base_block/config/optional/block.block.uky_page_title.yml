@@ -1,8 +1,6 @@
 langcode: en
 status: false
-dependencies:
-  # theme:
-  #   - ukd8
+dependencies: {  }
 id: uky_page_title
 theme: ukd8
 region: content

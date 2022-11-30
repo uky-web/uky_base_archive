@@ -4,8 +4,6 @@ dependencies:
   config:
     - image.style.max_1300x1300
     - image.style.max_650x650
-  # theme:
-  #   - ukd8
 id: content_width
 label: 'Content width'
 image_style_mappings:

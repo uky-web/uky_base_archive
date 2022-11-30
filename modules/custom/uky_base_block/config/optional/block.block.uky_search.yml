@@ -3,8 +3,6 @@ status: false
 dependencies:
   module:
     - search
-  # theme:
-  #   - ukd8
 id: uky_search
 theme: ukd8
 region: content_prefix

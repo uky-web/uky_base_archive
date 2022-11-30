@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - system
-  # theme:
-  #   - ukd8
 id: uky_content
 theme: ukd8
 region: content

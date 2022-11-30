@@ -5,8 +5,6 @@ dependencies:
     - system.menu.tools
   module:
     - system
-  # theme:
-  #   - ukd8
 id: uky_tools
 theme: ukd8
 region: content_prefix

@@ -4,8 +4,6 @@ dependencies:
   config:
     - image.style.max_325x325
     - image.style.max_650x650
-  # theme:
-  #   - ukd8
 id: half_width
 label: 'Half width'
 image_style_mappings:

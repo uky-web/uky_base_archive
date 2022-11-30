@@ -5,8 +5,6 @@ dependencies:
     - system.menu.main
   module:
     - system
-  # theme:
-  #   - ukd8
 id: uky_main_menu
 theme: ukd8
 region: top_nav

@@ -5,8 +5,6 @@ dependencies:
     - image.style.big_16x9
     - image.style.medium_16x9
     - image.style.small_16x9
-  # theme:
-  #   - ukd8
 id: full_width_16x9
 label: 'Full width 16x9'
 image_style_mappings:
