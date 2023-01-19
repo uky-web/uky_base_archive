@@ -44,7 +44,7 @@
     "drupal/better_formats": "1.x-dev",
     "drupal/block_visibility_groups": "^1.1",
     "drupal/captcha": "^1.0",
-    "drupal/chosen": "^3.0",
+    "drupal/chosen": "3.0.3",
     "drupal/config_ignore": "^2.1",
     "drupal/console": "~1.0",
     "drupal/content_access": "^1.0@alpha",
@@ -122,7 +122,6 @@
     "drupal/webform_score": "^2.1",
     "drupal/xmlsitemap": "^1.1",
     "drush/drush": "^10.2.2",
-    "harvesthq/chosen": "1.8.7",
     "oomphinc/composer-installers-extender": "^2.0",
     "uky-web/ukd8": "^2.0"
   },
