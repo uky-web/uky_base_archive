@@ -137,7 +137,11 @@
       "patches": {
         "drupal/linkit": {
           "simple matcher patch": "https://www.drupal.org/files/issues/2018-06-20/fix-non-entity-path.interdiff.patch"
-        }
+        },
+        "drupal/eck":{
+          "add php 8 compatible type hints in ArrayDeprecationWrapper": "https://www.drupal.org/files/issues/2022-12-17/3327602-5.patch"
+      }
+
       },
       "composer-exit-on-patch-failure": true,
       "patchLevel": {
