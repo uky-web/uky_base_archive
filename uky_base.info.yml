@@ -13,6 +13,10 @@ install:
   - ldap_query
   - ldap_servers
   - ldap_user
+  - metatag
+  - metatag_facebook
+  - metatag_open_graph
+  - metatag_twitter_cards
   - r4032login
   - raven
   - recaptcha
