@@ -20,6 +20,7 @@ install:
   - r4032login
   - raven
   - recaptcha
+  - update
 
 # Required modules.
 dependencies:
