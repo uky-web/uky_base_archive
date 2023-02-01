@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: 3x2Fp1Qf3iukzMRI_Hs3fP_RgtPjI3oj_oXwhLKSvGY
 check:
   disabled_extensions: false
   interval_days: 1
