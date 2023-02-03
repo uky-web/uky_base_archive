@@ -44,6 +44,7 @@ permissions:
   - 'delete any webform'
   - 'delete any webform submission'
   - 'delete embederator entity'
+  - 'delete files'
   - 'delete terms in media_tags'
   - 'delete terms in news_events_categories'
   - 'delete terms in people_categories'
