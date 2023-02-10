@@ -4,9 +4,9 @@ dependencies:
   config:
     - filter.format.basic_html
   module:
-    - ckeditor5
+    - ckeditor
 format: basic_html
-editor: ckeditor5
+editor: ckeditor
 settings:
   toolbar:
     rows:
