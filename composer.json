@@ -61,7 +61,6 @@
     "drupal/entityqueue": "^1.2",
     "drupal/entity_browser_enhanced": "^1.0",
     "drupal/entity_embed": "^1.2",
-    "drupal/externalauth":"^2.0.3",
     "drupal/features": "^3.12",
     "drupal/field_group": "^3.0",
     "drupal/field_group_settings": "^3",
