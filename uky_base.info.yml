@@ -100,7 +100,6 @@ dependencies:
 themes:
   - ukd8
   - claro
-  - seven
   
 package: uky_base
 distribution:
