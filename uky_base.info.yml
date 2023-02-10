@@ -49,7 +49,6 @@ dependencies:
   - node
   - page_cache
   - permissions_filter
-  - rdf
   - redirect
   - search
   - shortcut
