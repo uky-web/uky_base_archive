@@ -6,7 +6,7 @@ dependencies:
   module:
     - ckeditor5
 format: restricted_html
-editor: ckeditor
+editor: ckeditor5
 settings:
   toolbar:
     rows:
