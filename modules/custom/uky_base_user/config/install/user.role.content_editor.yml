@@ -1,41 +1,6 @@
 langcode: en
 status: true
-dependencies:
-  config:
-    - filter.format.basic_html
-    - filter.format.inline_html
-    - filter.format.restricted_html
-    - media.type.audio
-    - media.type.file
-    - media.type.hosted_video
-    - media.type.image
-    - media.type.video
-    - node.type.event
-    - node.type.news
-    - node.type.page
-    - node.type.person
-    - taxonomy.vocabulary.media_tags
-    - taxonomy.vocabulary.news_events_categories
-    - taxonomy.vocabulary.people_categories
-  module:
-    - better_formats
-    - contextual
-    - eck
-    - embederator
-    - entity_browser
-    - filter
-    - media
-    - metatag
-    - node
-    - override_node_options
-    - paragraphs_type_permissions
-    - path
-    - redirect
-    - shortcut
-    - system
-    - taxonomy
-    - toolbar
-    - webform
+dependencies: {  }
 id: content_editor
 label: 'Content Editor'
 weight: 3
@@ -71,7 +36,6 @@ permissions:
   - 'create paragraph content carousel'
   - 'create paragraph content custom_teasers'
   - 'create paragraph content editorial_aside'
-  - 'create paragraph content embederator'
   - 'create paragraph content feed'
   - 'create paragraph content flex_grid'
   - 'create paragraph content gallery'
@@ -99,7 +63,6 @@ permissions:
   - 'delete paragraph content carousel'
   - 'delete paragraph content custom_teasers'
   - 'delete paragraph content editorial_aside'
-  - 'delete paragraph content embederator'
   - 'delete paragraph content feed'
   - 'delete paragraph content flex_grid'
   - 'delete paragraph content gallery'
@@ -149,7 +112,6 @@ permissions:
   - 'update paragraph content carousel'
   - 'update paragraph content custom_teasers'
   - 'update paragraph content editorial_aside'
-  - 'update paragraph content embederator'
   - 'update paragraph content feed'
   - 'update paragraph content flex_grid'
   - 'update paragraph content gallery'
