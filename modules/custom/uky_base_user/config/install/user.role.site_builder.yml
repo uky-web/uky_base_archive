@@ -1,6 +1,34 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.inline_html
+    - filter.format.restricted_html
+    - user.role.authenticated
+    - user.role.content_editor
+    - user.role.content_manager
+  module:
+    - block
+    - block_content
+    - block_visibility_groups
+    - eck
+    - embederator
+    - entity_browser
+    - field_group_settings
+    - field_ui
+    - filter
+    - masquerade
+    - media
+    - metatag
+    - node
+    - override_node_options
+    - paragraphs
+    - system
+    - taxonomy
+    - toolbar
+    - views_ui
+    - webform
 id: site_builder
 label: 'Site Builder'
 weight: 5
