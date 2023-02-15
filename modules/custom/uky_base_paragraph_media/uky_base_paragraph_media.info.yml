@@ -1,7 +1,7 @@
 name: 'UK Media (full-width) Paragraph'
 description: 'Provides Media (full-width) paragraphs type and related configuration. Full-width captioned media'
 type: module
-core_version_requirement: ^8.9.19 || ^9
+core_version_requirement: ^9.5 || ^10
 dependencies:
   - paragraphs
   

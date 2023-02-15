@@ -1,7 +1,7 @@
 name: UK Statistics Paragraph
 description: 'Provides Statistics paragraphs type and related configuration. A list of numerical factoid panels'
 type: module
-core_version_requirement: ^8.9.19 || ^9
+core_version_requirement: ^9.5 || ^10
 dependencies:
   - field
   - field_group

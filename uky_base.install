@@ -55,3 +55,21 @@ function uky_base_update_9201() {
   \Drupal::service('module_installer')->install(['uky_base_paragraph_uky_maps']);
 }
 
+/**
+ * uky_base - D10 prep update
+ */
+function uky_base_update_9202() {
+  
+  // Enable ckeditor 5 and admin_toolbar_tools
+  $module_list = array(
+    'admin_toolbar_tools',
+    'ckeditor5',
+    'upgrade_status'
+  );
+  \Drupal::service('module_installer')->install($module_list);
+  
+  // Uninstall ckeditor and rdf
+  \Drupal::service('module_installer')->uninstall(['ckeditor']);
+  \Drupal::service('module_installer')->uninstall(['color']);
+  \Drupal::service('module_installer')->uninstall(['rdf']);
+}
