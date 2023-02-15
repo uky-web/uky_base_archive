@@ -1,3 +1,4 @@
+uuid: 3c0810a9-f123-4a30-bae8-1b2641519316
 langcode: en
 status: true
 dependencies:
@@ -12,15 +13,20 @@ settings:
     items:
       - bold
       - italic
+      - heading
+      - style
       - '|'
       - link
       - '|'
       - bulletedList
       - numberedList
       - '|'
+      - insertTable
+      - '|'
       - blockQuote
+      - '|'
       - code
-      - heading
+      - '|'
       - sourceEditing
   plugins:
     ckeditor5_heading:
@@ -30,6 +36,14 @@ settings:
         - heading4
         - heading5
         - heading6
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Intro text'
+          element: '<p class="intro">'
+        -
+          label: 'Fancy link'
+          element: '<a class="link--fancy">'
     ckeditor5_sourceEditing:
       allowed_tags:
         - '<cite>'
@@ -47,6 +61,7 @@ settings:
         - '<a hreflang>'
         - '<ul type>'
         - '<ol type>'
+        - '<p id>'
     ckeditor5_list:
       reversed: false
       startIndex: true

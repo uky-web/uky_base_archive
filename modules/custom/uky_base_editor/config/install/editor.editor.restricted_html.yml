@@ -1,3 +1,4 @@
+uuid: 37bc34c7-2db9-4ebc-8055-3763cb992fe8
 langcode: en
 status: true
 dependencies:
@@ -12,19 +13,21 @@ settings:
     items:
       - bold
       - italic
-      - style
       - heading
+      - style
       - '|'
       - link
       - '|'
       - bulletedList
       - numberedList
       - '|'
+      - insertTable
+      - '|'
       - blockQuote
       - '|'
-      - sourceEditing
-      - '|'
       - code
+      - '|'
+      - sourceEditing
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -57,6 +60,7 @@ settings:
         - '<h5 id>'
         - '<h6 id>'
         - '<a hreflang data-entity-substitution data-entity-type data-entity-uuid title>'
+        - '<p id>'
     ckeditor5_list:
       reversed: false
       startIndex: true
