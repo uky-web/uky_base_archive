@@ -8,6 +8,7 @@ install:
   - admin_toolbar_tools
   - adminimal_admin_toolbar
   - captcha
+  - file_delete
   - fpa
   - ldap
   - ldap_authentication
