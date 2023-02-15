@@ -5,6 +5,7 @@ core_version_requirement: ^9.5 || ^10
 
 # Modules to install to support the profile but not make required.
 install:
+  - admin_toolbar_tools
   - adminimal_admin_toolbar
   - captcha
   - fpa
@@ -21,11 +22,13 @@ install:
   - raven
   - recaptcha
   - update
+  - upgrade_status
 
 # Required modules.
 dependencies:
   - admin_toolbar
   - automated_cron
+  - ckeditor5
   - components
   - config
   - contact
