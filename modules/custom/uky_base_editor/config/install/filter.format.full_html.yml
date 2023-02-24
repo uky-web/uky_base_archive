@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - editor
+_core:
+  default_config_hash: cTtuhJ8IVV8Fu3-nltqv0YaF_veauYjukv1N6SwVF_k
 name: 'Full HTML'
 format: full_html
 weight: -7

@@ -30,6 +30,7 @@ dependencies:
   - admin_toolbar
   - automated_cron
   - ckeditor5
+  - ckeditor
   - components
   - config
   - contact
