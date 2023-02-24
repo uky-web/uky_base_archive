@@ -1,3 +1,4 @@
+uuid: ca5cb0a1-f39e-4bc9-b5a2-77d819ce07e3
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - entity_embed
     - linkit
     - media
+_core:
+  default_config_hash: 9AFIsxXk0CaBnJ9d_NUMocgsrYIy7qHQ45KEqYx8NyI
 name: 'Restricted HTML'
 format: restricted_html
 weight: -8
@@ -16,7 +19,7 @@ filters:
     status: true
     weight: -50
     settings:
-      allowed_html: '<br> <p class="intro" id> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <a class="link--fancy" hreflang data-entity-substitution data-entity-type data-entity-uuid title href> <cite> <dl> <dt> <dd> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button data-langcode alt title> <blockquote cite> <ul type> <ol type start> <strong> <em> <code> <li> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption>'
+      allowed_html: '<em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p id class="intro"> <a href hreflang data-entity-substitution data-entity-type data-entity-uuid title class="link--fancy"> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button data-langcode alt title> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <table class="content-table"> <div class="table-wrapper">'
       filter_html_help: true
       filter_html_nofollow: false
   entity_embed:
@@ -50,22 +53,6 @@ filters:
     weight: -46
     settings:
       title: true
-  filter_url:
-    id: filter_url
-    provider: filter
-    status: false
-    weight: -41
-    settings:
-      filter_url_length: 72
-  media_embed:
-    id: media_embed
-    provider: media
-    status: false
-    weight: -39
-    settings:
-      default_view_mode: default
-      allowed_view_modes: {  }
-      allowed_media_types: {  }
   editor_file_reference:
     id: editor_file_reference
     provider: editor
@@ -90,3 +77,19 @@ filters:
     status: false
     weight: -40
     settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: false
+    weight: -41
+    settings:
+      filter_url_length: 72
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: -39
+    settings:
+      default_view_mode: default
+      allowed_view_modes: {  }
+      allowed_media_types: {  }

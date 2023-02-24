@@ -1,6 +1,9 @@
+uuid: 21a79165-3c55-425b-8e03-756fb4569a1d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 1OwPAT7nM_N8bBIUvtUS8dBBBjsGXfW_wiPUo9pdLng
 name: 'Inline HTML'
 format: inline_html
 weight: -10
