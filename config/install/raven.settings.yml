@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: eCGT3R4TsR_GTRxK2MP_FbVtk-W3A3Ifnotxzel7y7w
+  default_config_hash: 50OMXEhyone_5OGhuwpjO_APFvbNqHqhv-gOKlYDvsc
 client_key: ''
 environment: ''
 release: uky_base
@@ -9,13 +9,13 @@ log_levels:
   3: 3
   4: 4
   5: 5
-  6: 6
-  7: 7
+  6: 0
+  7: 0
   8: 8
 stack: true
 timeout: !!float 2
 message_limit: 2048
-trace: true
+trace: false
 fatal_error_handler: true
 fatal_error_handler_memory: 2560
 javascript_error_handler: true
@@ -36,5 +36,10 @@ auto_session_tracking: true
 send_client_reports: true
 drush_tracing: true
 seckit_set_report_uri: false
-send_attempts: 5
 send_monitoring_sensor_status_changes: false
+404_tracing: false
+show_report_dialog: false
+error_embed_url: ''
+tunnel: false
+modules: false
+send_attempts: 5
