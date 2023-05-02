@@ -6,7 +6,6 @@ core_version_requirement: ^9.5 || ^10
 # Modules to install to support the profile but not make required.
 install:
   - admin_toolbar_tools
-  - adminimal_admin_toolbar
   - captcha
   - file_delete
   - fpa
