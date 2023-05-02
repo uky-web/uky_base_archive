@@ -37,7 +37,6 @@
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6",
     "drupal/admin_toolbar":"^3.0",
-    "drupal/adminimal_admin_toolbar":"^1.11",
     "drupal/auto_entitylabel": "^3.0@beta",
     "drupal/auto_entityqueue": "^2.0",
     "drupal/better_exposed_filters": "^6.0.3",
