@@ -46,7 +46,7 @@
     "drupal/chosen": "3.0.3",
     "drupal/config_ignore": "^2.1",
     "drupal/console": "~1.0",
-    "drupal/content_access": "^1.0@alpha",
+    "drupal/content_access": "^2.0.0",
     "drupal/core": "^9.4.5",
     "drupal/core-composer-scaffold": "^9.2",
     "drupal/date_popup": "^1.2",
