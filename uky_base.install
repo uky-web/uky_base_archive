@@ -90,14 +90,20 @@ function uky_base_update_9203() {
   $config_name = 'field.field.node.page.field_page_header';
   $config = \Drupal::configFactory()->getEditable($config_name);
 
-  // Update the 'target_bundles' settings.
-  $config->set('settings.handler_settings.target_bundles', [
-    'full_width' => 'full_width',
+  // Get the current 'target_bundles' settings.
+  $target_bundles = $config->get('settings.handler_settings.target_bundles');
+
+  // Define the new bundles to add.
+  $new_bundles = [
     'full_width_3x1' => 'full_width_3x1',
-    'split_header' => 'split_header',
     'split_header_16x9' => 'split_header_16x9',
-    'text_only' => 'text_only',
-  ]);
+  ];
+
+  // Merge the new bundles with the existing ones.
+  $target_bundles = array_merge($target_bundles, $new_bundles);
+
+  // Set the updated 'target_bundles' settings.
+  $config->set('settings.handler_settings.target_bundles', $target_bundles);
 
   // Save the updated configuration.
   $config->save();
