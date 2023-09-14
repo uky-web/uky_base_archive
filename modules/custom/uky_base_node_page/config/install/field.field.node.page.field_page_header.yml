@@ -3,7 +3,9 @@ status: true
 dependencies:
   config:
     - eck.eck_type.page_header.full_width
+    - eck.eck_type.page_header.full_width_3x1
     - eck.eck_type.page_header.split_header
+    - eck.eck_type.page_header.split_header_16x9
     - eck.eck_type.page_header.text_only
     - field.storage.node.field_page_header
     - node.type.page
@@ -22,7 +24,9 @@ settings:
   handler_settings:
     target_bundles:
       full_width: full_width
+      full_width_3x1: full_width_3x1
       split_header: split_header
+      split_header_16x9: split_header_16x9
       text_only: text_only
     sort:
       field: _none
