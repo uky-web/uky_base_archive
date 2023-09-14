@@ -55,21 +55,53 @@ function uky_base_update_9201() {
   \Drupal::service('module_installer')->install(['uky_base_paragraph_uky_maps']);
 }
 
-/**
- * uky_base - D10 prep update
- */
-function uky_base_update_9202() {
+
+// /**
+//  * uky_base - D10 prep update
+//  */
+// function uky_base_update_9202() {
   
-  // Enable ckeditor 5 and admin_toolbar_tools
+//   // Enable ckeditor 5 and admin_toolbar_tools
+//   $module_list = array(
+//     'admin_toolbar_tools',
+//     'ckeditor5',
+//     'upgrade_status'
+//   );
+//   \Drupal::service('module_installer')->install($module_list);
+  
+//   // Uninstall ckeditor and rdf
+//   \Drupal::service('module_installer')->uninstall(['ckeditor']);
+//   \Drupal::service('module_installer')->uninstall(['color']);
+//   \Drupal::service('module_installer')->uninstall(['rdf']);
+// }
+
+
+/**
+ * Update the field_page_header configuration.
+ */
+function uky_base_update_9203() {
+  // Enable uky_base_eck_page_header_small module
   $module_list = array(
-    'admin_toolbar_tools',
-    'ckeditor5',
-    'upgrade_status'
+    'uky_base_eck_page_header_small'
   );
   \Drupal::service('module_installer')->install($module_list);
   
-  // Uninstall ckeditor and rdf
-  \Drupal::service('module_installer')->uninstall(['ckeditor']);
-  \Drupal::service('module_installer')->uninstall(['color']);
-  \Drupal::service('module_installer')->uninstall(['rdf']);
+  // Set page content type page header field to include new header options
+  $config_name = 'field.field.node.page.field_page_header';
+  $config = \Drupal::configFactory()->getEditable($config_name);
+
+  // Update the 'target_bundles' settings.
+  $config->set('settings.handler_settings.target_bundles', [
+    'full_width' => 'full_width',
+    'full_width_3x1' => 'full_width_3x1',
+    'split_header' => 'split_header',
+    'split_header_16x9' => 'split_header_16x9',
+    'text_only' => 'text_only',
+  ]);
+
+  // Save the updated configuration.
+  $config->save();
+
+  // Clear the cache.
+  drupal_flush_all_caches();
 }
