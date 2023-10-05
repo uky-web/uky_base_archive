@@ -113,7 +113,7 @@
     "drupal/view_unpublished":"^1.0",
     "drupal/views_bulk_edit": "^2.6",
     "drupal/views_bulk_operations": "^4.1",
-    "drupal/views_fieldsets": "^3.4",
+    "drupal/views_fieldsets": "^4.0.0",
     "drupal/views_taxonomy_term_name_depth": "^7.0",
     "drupal/views_taxonomy_term_name_into_id": "^1.0@alpha",
     "drupal/webform": "^6.2.0@beta",
