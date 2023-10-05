@@ -119,7 +119,7 @@
     "drupal/webform": "^6.2.0@beta",
     "drupal/webform_score": "^2.1",
     "drupal/xmlsitemap": "^1.1",
-    "drush/drush": "^11.0.0",
+    "drush/drush": "^10.2.0",
     "oomphinc/composer-installers-extender": "^2.0",
     "uky-web/ukd8": "dev-d10"
   },
