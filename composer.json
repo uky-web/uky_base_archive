@@ -123,7 +123,7 @@
     "drupal/xmlsitemap": "^1.1",
     "drush/drush": "^10.2.0",
     "oomphinc/composer-installers-extender": "^2.0",
-    "uky-web/ukd8": "dev-d10"
+    "uky-web/ukd8": "^2.0.0"
   },
   "config":{
     "optimize-autoloader": true,
