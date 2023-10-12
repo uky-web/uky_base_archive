@@ -30,7 +30,7 @@
 ],
   "require": {
     "ahebrank/eck_autolabel": "^2.0.0",
-    "ahebrank/paragraphs_previewer_popup": "dev-8.x-1.x",
+    "ahebrank/paragraphs_previewer_popup": "^2.0.0",
     "bower-asset/dropzone": "5.7.2",
     "bower-asset/imagesloaded": "^4.1",
     "bower-asset/masonry": "^4.2",
