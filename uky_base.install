@@ -57,7 +57,7 @@ function uky_base_update_9201() {
 
 
 /**
- * uky_base - D10 prep update
+ * Install D10-related modules and uninstall color, and rdf.
  */
 function uky_base_update_9202() {
   
@@ -69,8 +69,7 @@ function uky_base_update_9202() {
   );
   \Drupal::service('module_installer')->install($module_list);
   
-  // Uninstall ckeditor and rdf
-  \Drupal::service('module_installer')->uninstall(['ckeditor']);
+  // Uninstall color and rdf
   \Drupal::service('module_installer')->uninstall(['color']);
   \Drupal::service('module_installer')->uninstall(['rdf']);
 }
@@ -114,7 +113,7 @@ function uky_base_update_9203() {
 
 
 /**
- * uky_base - CKEditor 4 enable contrib module
+ * Enable the CKEditor 4 module
  */
 function uky_base_update_9204() {
   
