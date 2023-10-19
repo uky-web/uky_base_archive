@@ -58,7 +58,7 @@
     "drupal/embederator": "^4.0",
     "drupal/emergency_alerts": "2.x-dev",
     "drupal/entityqueue": "^1.2",
-    "drupal/entity_browser_enhanced": "^1.0",
+    "drupal/entity_browser_enhanced": "^2.0",
     "drupal/entity_embed": "^1.2",
     "drupal/features": "^3.12",
     "drupal/field_group": "^3.0",
