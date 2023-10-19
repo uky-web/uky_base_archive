@@ -16,19 +16,19 @@ use Drupal\Core\Config\FileStorage;
 function uky_base_paragraph_uky_maps_install() {
 // Update permissions.
 
-  $config = \Drupal::service('config.factory')->getEditable('user.role.anonymous');
-  $config->set('permissions.view paragraph content embederator', 'view paragraph content embederator');
-  $config->save();
+  // $config = \Drupal::service('config.factory')->getEditable('user.role.anonymous');
+  // $config->set('permissions.view paragraph content embederator', 'view paragraph content embederator');
+  // $config->save();
 
-  $config = \Drupal::service('config.factory')->getEditable('user.role.authenticated');
-  $config->set('permissions.view paragraph content embederator', 'view paragraph content embederator');
-  $config->save();
+  // $config = \Drupal::service('config.factory')->getEditable('user.role.authenticated');
+  // $config->set('permissions.view paragraph content embederator', 'view paragraph content embederator');
+  // $config->save();
 
-  $config = \Drupal::service('config.factory')->getEditable('user.role.content_editor');
-  $config->set('permissions.create paragraph content embederator', 'create paragraph content embederator');
-  $config->set('permissions.delete paragraph content embederator', 'delete paragraph content embederator');
-  $config->set('permissions.update paragraph content embederator', 'update paragraph content embederator');
-  $config->save();
+  // $config = \Drupal::service('config.factory')->getEditable('user.role.content_editor');
+  // $config->set('permissions.create paragraph content embederator', 'create paragraph content embederator');
+  // $config->set('permissions.delete paragraph content embederator', 'delete paragraph content embederator');
+  // $config->set('permissions.update paragraph content embederator', 'update paragraph content embederator');
+  // $config->save();
 }
 
 
