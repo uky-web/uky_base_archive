@@ -51,7 +51,7 @@
     "drupal/content_access": "^2.0.0",
     "drupal/core": "^10.1.0",
     "drupal/core-composer-scaffold": "^10.1",
-    "drupal/date_popup": "^1.2",
+    "drupal/date_popup": "^2.0.0",
     "drupal/described_link": "^2.0.0",
     "drupal/easy_breadcrumb": "^2.0",
     "drupal/eck": "^2.0.0",
