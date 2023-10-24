@@ -107,9 +107,6 @@ function uky_base_update_9203() {
 
   // Save the updated configuration.
   $config->save();
-
-  // Clear the cache.
-  drupal_flush_all_caches();
 }
 
 
@@ -123,10 +120,7 @@ function uky_base_update_9204() {
     'ckeditor'
   );
   \Drupal::service('module_installer')->install($module_list);
-
-    // Clear the cache.
-    drupal_flush_all_caches();
-  }
+}
 
 /**
  * Enable the person_sidenav view
@@ -157,8 +151,6 @@ function uky_base_update_9205() {
     $message .= "Config update didn't work\n";
   }
  }
-
- drupal_flush_all_caches();
 
  return $message;
 }
