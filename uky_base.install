@@ -76,10 +76,21 @@ function uky_base_update_9202() {
 }
 
 
-/**
- * Update the field_page_header configuration.
- */
 function uky_base_update_9203() {
+    $module_path = \Drupal::service('extension.list.module')->getPath('uky_base_media') . '/config/install';
+    $configs = [];
+    $files = \Drupal::service('file_system')->scanDirectory($module_path, '/\.yml$/');
+  
+    if ($files) {
+      foreach ($files as $file) {
+          $configs[] = $file->name;
+      }
+  
+      foreach ($configs as $config_name) {
+          \Drupal::configFactory()->getEditable($config_name)->delete();
+      }
+    }
+
   // Enable uky_base_eck_page_header_small module
   $module_list = array(
     'uky_base_eck_page_header_small'
