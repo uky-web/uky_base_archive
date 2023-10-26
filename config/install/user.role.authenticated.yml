@@ -24,6 +24,7 @@ permissions:
   - 'view paragraph content carousel'
   - 'view paragraph content custom_teasers'
   - 'view paragraph content editorial_aside'
+  - 'view paragraph content embederator'
   - 'view paragraph content feed'
   - 'view paragraph content flex_grid'
   - 'view paragraph content gallery'
