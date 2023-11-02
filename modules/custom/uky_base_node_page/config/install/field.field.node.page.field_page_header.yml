@@ -1,11 +1,12 @@
 langcode: en
 status: true
 dependencies:
+  module:
+    - uky_base_eck_page_header
+    - uky_base_eck_page_header_small
   config:
     - eck.eck_type.page_header.full_width
-    - eck.eck_type.page_header.full_width_3x1
     - eck.eck_type.page_header.split_header
-    - eck.eck_type.page_header.split_header_16x9
     - eck.eck_type.page_header.text_only
     - field.storage.node.field_page_header
     - node.type.page
